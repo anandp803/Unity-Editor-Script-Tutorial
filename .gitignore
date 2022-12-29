@@ -1,0 +1,73 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Bb]uilds/
+[Bb]in/
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+WindowsStoreApp/
+WSA/
+project.json
+project.lock.json
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+/UWP/
+**/DotNetAdapter/.bin/
+**/DotNetAdapter/.obj/
+MSBuildForUnity.Common.props
+**/MixedRealityToolkit.Generated/
+**/MixedRealityToolkit.Generated.meta
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+!/Assets/NRAssets/Images/Icons
+!/Assets/HoloToolkit/UX/*
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+Corridor/Library/ShaderCache/
+Corridor/Library/metadata/# Add any directories, files, or patterns you don't want to be tracked by version control
+
+#log files
+*.log
+
+#Packages
+Packages/packages-lock.json
+
+
+# =============== #
+# Encriptor files #
+# =============== #
+!/Tools/Encriptor/Encriptor/Encriptor/Encriptor.csproj
