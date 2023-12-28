@@ -21,7 +21,7 @@ public class EnemyDesigner : EditorWindow
     Rect mageSection;
 
 
-    [MenuItem("Window/EnemyDesigner")]
+    [MenuItem("Mytools/EnemyDesigner")]
     static void OpenWindow()
     {
         EnemyDesigner window = (EnemyDesigner)GetWindow(typeof(EnemyDesigner));
